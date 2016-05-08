@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DFBBF3ACDCCC87AC71082B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EC454DA954BDFE72FA1FB0 /* libPods.a */; };
+		CD6709011CDD960E00267448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709001CDD960E00267448 /* main.m */; };
+		CD6709041CDD960E00267448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709031CDD960E00267448 /* AppDelegate.m */; };
+		CD67090A1CDD960E00267448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6709081CDD960E00267448 /* Main.storyboard */; };
+		CD67090C1CDD960E00267448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD67090B1CDD960E00267448 /* Assets.xcassets */; };
+		CD67090F1CDD960E00267448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD67090D1CDD960E00267448 /* LaunchScreen.storyboard */; };
+		CD67091A1CDD960E00267448 /* HaptikChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709191CDD960E00267448 /* HaptikChatAppTests.m */; };
+		CD6709251CDD960E00267448 /* HaptikChatAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709241CDD960E00267448 /* HaptikChatAppUITests.m */; };
+		CD6709341CDD96FF00267448 /* ChatConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709331CDD96FF00267448 /* ChatConversationViewController.m */; };
+		CD67093C1CDD993300267448 /* HaptikAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67093B1CDD993300267448 /* HaptikAPIClient.m */; };
+		CD6709471CDDA83F00267448 /* UserMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709461CDDA83F00267448 /* UserMessageManager.m */; };
+		CD67094A1CDDAF6C00267448 /* UserAvatarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6709491CDDAF6C00267448 /* UserAvatarManager.m */; };
+		CD67094D1CDDB97A00267448 /* ChatDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67094C1CDDB97A00267448 /* ChatDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6709161CDD960E00267448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6708F41CDD960E00267448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6708FB1CDD960E00267448;
+			remoteInfo = HaptikChatApp;
+		};
+		CD6709211CDD960E00267448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6708F41CDD960E00267448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6708FB1CDD960E00267448;
+			remoteInfo = HaptikChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		595A2F447B6F03BF5DD7D36A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		99EC454DA954BDFE72FA1FB0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6708FC1CDD960E00267448 /* HaptikChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaptikChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6709001CDD960E00267448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6709021CDD960E00267448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6709031CDD960E00267448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6709091CDD960E00267448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD67090B1CDD960E00267448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD67090E1CDD960E00267448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6709101CDD960E00267448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6709151CDD960E00267448 /* HaptikChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaptikChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6709191CDD960E00267448 /* HaptikChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaptikChatAppTests.m; sourceTree = "<group>"; };
+		CD67091B1CDD960E00267448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6709201CDD960E00267448 /* HaptikChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaptikChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6709241CDD960E00267448 /* HaptikChatAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaptikChatAppUITests.m; sourceTree = "<group>"; };
+		CD6709261CDD960E00267448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6709321CDD96FF00267448 /* ChatConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatConversationViewController.h; sourceTree = "<group>"; };
+		CD6709331CDD96FF00267448 /* ChatConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatConversationViewController.m; sourceTree = "<group>"; };
+		CD67093A1CDD993300267448 /* HaptikAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaptikAPIClient.h; sourceTree = "<group>"; };
+		CD67093B1CDD993300267448 /* HaptikAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaptikAPIClient.m; sourceTree = "<group>"; };
+		CD6709451CDDA83F00267448 /* UserMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserMessageManager.h; sourceTree = "<group>"; };
+		CD6709461CDDA83F00267448 /* UserMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserMessageManager.m; sourceTree = "<group>"; };
+		CD6709481CDDAF6C00267448 /* UserAvatarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAvatarManager.h; sourceTree = "<group>"; };
+		CD6709491CDDAF6C00267448 /* UserAvatarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAvatarManager.m; sourceTree = "<group>"; };
+		CD67094B1CDDB97A00267448 /* ChatDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDataManager.h; sourceTree = "<group>"; };
+		CD67094C1CDDB97A00267448 /* ChatDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDataManager.m; sourceTree = "<group>"; };
+		E7262B7829074AD3C48D210F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6708F91CDD960E00267448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFBBF3ACDCCC87AC71082B7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6709121CDD960E00267448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67091D1CDD960E00267448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E485BC55D6044CDCADA264A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99EC454DA954BDFE72FA1FB0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6708F31CDD960E00267448 = {
+			isa = PBXGroup;
+			children = (
+				CD6708FE1CDD960E00267448 /* HaptikChatApp */,
+				CD6709181CDD960E00267448 /* HaptikChatAppTests */,
+				CD6709231CDD960E00267448 /* HaptikChatAppUITests */,
+				CD6708FD1CDD960E00267448 /* Products */,
+				DAB1569D206C4360C21A0F7A /* Pods */,
+				1E485BC55D6044CDCADA264A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6708FD1CDD960E00267448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6708FC1CDD960E00267448 /* HaptikChatApp.app */,
+				CD6709151CDD960E00267448 /* HaptikChatAppTests.xctest */,
+				CD6709201CDD960E00267448 /* HaptikChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6708FE1CDD960E00267448 /* HaptikChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				CD6709441CDDA7D600267448 /* ViewModal */,
+				CD6709391CDD990C00267448 /* Services */,
+				CD6709351CDD970700267448 /* Model */,
+				CD6709021CDD960E00267448 /* AppDelegate.h */,
+				CD6709031CDD960E00267448 /* AppDelegate.m */,
+				CD6709321CDD96FF00267448 /* ChatConversationViewController.h */,
+				CD6709331CDD96FF00267448 /* ChatConversationViewController.m */,
+				CD6709081CDD960E00267448 /* Main.storyboard */,
+				CD67090B1CDD960E00267448 /* Assets.xcassets */,
+				CD67090D1CDD960E00267448 /* LaunchScreen.storyboard */,
+				CD6709101CDD960E00267448 /* Info.plist */,
+				CD6708FF1CDD960E00267448 /* Supporting Files */,
+			);
+			path = HaptikChatApp;
+			sourceTree = "<group>";
+		};
+		CD6708FF1CDD960E00267448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6709001CDD960E00267448 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6709181CDD960E00267448 /* HaptikChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6709191CDD960E00267448 /* HaptikChatAppTests.m */,
+				CD67091B1CDD960E00267448 /* Info.plist */,
+			);
+			path = HaptikChatAppTests;
+			sourceTree = "<group>";
+		};
+		CD6709231CDD960E00267448 /* HaptikChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6709241CDD960E00267448 /* HaptikChatAppUITests.m */,
+				CD6709261CDD960E00267448 /* Info.plist */,
+			);
+			path = HaptikChatAppUITests;
+			sourceTree = "<group>";
+		};
+		CD6709351CDD970700267448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD6709391CDD990C00267448 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD67093A1CDD993300267448 /* HaptikAPIClient.h */,
+				CD67093B1CDD993300267448 /* HaptikAPIClient.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CD6709441CDDA7D600267448 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				CD6709451CDDA83F00267448 /* UserMessageManager.h */,
+				CD6709461CDDA83F00267448 /* UserMessageManager.m */,
+				CD6709481CDDAF6C00267448 /* UserAvatarManager.h */,
+				CD6709491CDDAF6C00267448 /* UserAvatarManager.m */,
+				CD67094B1CDDB97A00267448 /* ChatDataManager.h */,
+				CD67094C1CDDB97A00267448 /* ChatDataManager.m */,
+			);
+			name = ViewModal;
+			sourceTree = "<group>";
+		};
+		DAB1569D206C4360C21A0F7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7262B7829074AD3C48D210F /* Pods.debug.xcconfig */,
+				595A2F447B6F03BF5DD7D36A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6708FB1CDD960E00267448 /* HaptikChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6709291CDD960E00267448 /* Build configuration list for PBXNativeTarget "HaptikChatApp" */;
+			buildPhases = (
+				BFA1484B8CC4345F4AB9A348 /* Check Pods Manifest.lock */,
+				CD6708F81CDD960E00267448 /* Sources */,
+				CD6708F91CDD960E00267448 /* Frameworks */,
+				CD6708FA1CDD960E00267448 /* Resources */,
+				138E17C2FF87C80FFAACC49A /* Embed Pods Frameworks */,
+				C14876D06183FF67710CE40F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaptikChatApp;
+			productName = HaptikChatApp;
+			productReference = CD6708FC1CDD960E00267448 /* HaptikChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6709141CDD960E00267448 /* HaptikChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD67092C1CDD960E00267448 /* Build configuration list for PBXNativeTarget "HaptikChatAppTests" */;
+			buildPhases = (
+				CD6709111CDD960E00267448 /* Sources */,
+				CD6709121CDD960E00267448 /* Frameworks */,
+				CD6709131CDD960E00267448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6709171CDD960E00267448 /* PBXTargetDependency */,
+			);
+			name = HaptikChatAppTests;
+			productName = HaptikChatAppTests;
+			productReference = CD6709151CDD960E00267448 /* HaptikChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD67091F1CDD960E00267448 /* HaptikChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD67092F1CDD960E00267448 /* Build configuration list for PBXNativeTarget "HaptikChatAppUITests" */;
+			buildPhases = (
+				CD67091C1CDD960E00267448 /* Sources */,
+				CD67091D1CDD960E00267448 /* Frameworks */,
+				CD67091E1CDD960E00267448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6709221CDD960E00267448 /* PBXTargetDependency */,
+			);
+			name = HaptikChatAppUITests;
+			productName = HaptikChatAppUITests;
+			productReference = CD6709201CDD960E00267448 /* HaptikChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6708F41CDD960E00267448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pramod Sharma";
+				TargetAttributes = {
+					CD6708FB1CDD960E00267448 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD6709141CDD960E00267448 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6708FB1CDD960E00267448;
+					};
+					CD67091F1CDD960E00267448 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6708FB1CDD960E00267448;
+					};
+				};
+			};
+			buildConfigurationList = CD6708F71CDD960E00267448 /* Build configuration list for PBXProject "HaptikChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6708F31CDD960E00267448;
+			productRefGroup = CD6708FD1CDD960E00267448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6708FB1CDD960E00267448 /* HaptikChatApp */,
+				CD6709141CDD960E00267448 /* HaptikChatAppTests */,
+				CD67091F1CDD960E00267448 /* HaptikChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6708FA1CDD960E00267448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD67090F1CDD960E00267448 /* LaunchScreen.storyboard in Resources */,
+				CD67090C1CDD960E00267448 /* Assets.xcassets in Resources */,
+				CD67090A1CDD960E00267448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6709131CDD960E00267448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67091E1CDD960E00267448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		138E17C2FF87C80FFAACC49A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA1484B8CC4345F4AB9A348 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C14876D06183FF67710CE40F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6708F81CDD960E00267448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6709041CDD960E00267448 /* AppDelegate.m in Sources */,
+				CD67094A1CDDAF6C00267448 /* UserAvatarManager.m in Sources */,
+				CD67093C1CDD993300267448 /* HaptikAPIClient.m in Sources */,
+				CD6709011CDD960E00267448 /* main.m in Sources */,
+				CD6709471CDDA83F00267448 /* UserMessageManager.m in Sources */,
+				CD67094D1CDDB97A00267448 /* ChatDataManager.m in Sources */,
+				CD6709341CDD96FF00267448 /* ChatConversationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6709111CDD960E00267448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD67091A1CDD960E00267448 /* HaptikChatAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67091C1CDD960E00267448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6709251CDD960E00267448 /* HaptikChatAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6709171CDD960E00267448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6708FB1CDD960E00267448 /* HaptikChatApp */;
+			targetProxy = CD6709161CDD960E00267448 /* PBXContainerItemProxy */;
+		};
+		CD6709221CDD960E00267448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6708FB1CDD960E00267448 /* HaptikChatApp */;
+			targetProxy = CD6709211CDD960E00267448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6709081CDD960E00267448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6709091CDD960E00267448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD67090D1CDD960E00267448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD67090E1CDD960E00267448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6709271CDD960E00267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD6709281CDD960E00267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD67092A1CDD960E00267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7262B7829074AD3C48D210F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaptikChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.HaptikChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD67092B1CDD960E00267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595A2F447B6F03BF5DD7D36A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaptikChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.HaptikChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD67092D1CDD960E00267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaptikChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.HaptikChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaptikChatApp.app/HaptikChatApp";
+			};
+			name = Debug;
+		};
+		CD67092E1CDD960E00267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HaptikChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.HaptikChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaptikChatApp.app/HaptikChatApp";
+			};
+			name = Release;
+		};
+		CD6709301CDD960E00267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaptikChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.HaptikChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaptikChatApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD6709311CDD960E00267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HaptikChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.HaptikChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaptikChatApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6708F71CDD960E00267448 /* Build configuration list for PBXProject "HaptikChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6709271CDD960E00267448 /* Debug */,
+				CD6709281CDD960E00267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6709291CDD960E00267448 /* Build configuration list for PBXNativeTarget "HaptikChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD67092A1CDD960E00267448 /* Debug */,
+				CD67092B1CDD960E00267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD67092C1CDD960E00267448 /* Build configuration list for PBXNativeTarget "HaptikChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD67092D1CDD960E00267448 /* Debug */,
+				CD67092E1CDD960E00267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD67092F1CDD960E00267448 /* Build configuration list for PBXNativeTarget "HaptikChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6709301CDD960E00267448 /* Debug */,
+				CD6709311CDD960E00267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6708F41CDD960E00267448 /* Project object */;
+}
